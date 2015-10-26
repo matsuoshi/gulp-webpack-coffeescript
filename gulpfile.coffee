@@ -90,4 +90,4 @@ gulp.task 'serve', ['watch'], ->
   .on 'change', browserSync.reload
 
 
-gulp.task 'default', ['serve']
+gulp.task 'default', ['build', 'serve']
