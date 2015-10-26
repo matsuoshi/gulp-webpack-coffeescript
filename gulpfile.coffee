@@ -32,6 +32,7 @@ gulp.task 'scripts', ->
         script: './src/scripts/script.coffee'
       output:
         filename: '[name].js'
+        publicPath: '/assets/js/'
       resolve:
         extensions: ['', '.js', '.coffee']
         modulesDirectories: [ 'src/scripts', 'node_modules', 'bower_components' ],
