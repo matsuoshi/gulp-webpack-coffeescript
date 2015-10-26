@@ -1,3 +1,10 @@
 # gulp-webpack
 
-gulp with webpack, sass, pleeease, sourcemaps, imagemin and browser-sync
+gulp with
+  - webpack
+  - CoffeeScript
+  - Sass
+  - pleeease
+  - sourcemaps
+  - imagemin
+  - browser-sync
