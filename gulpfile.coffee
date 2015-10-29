@@ -71,7 +71,6 @@ gulp.task 'build', ['styles', 'scripts', 'images']
 gulp.task 'watch', ->
   gulp.watch 'src/styles/**/*.scss', ['styles']
   gulp.watch 'src/scripts/**/*.+(js|coffee)', ['scripts']
-#  gulp.watch 'src/images/**/*', ['images']
 
 
 #
@@ -91,4 +90,7 @@ gulp.task 'serve', ['watch'], ->
   .on 'change', browserSync.reload
 
 
+#
+# default
+#
 gulp.task 'default', ['build', 'serve']
