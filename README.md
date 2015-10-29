@@ -1,10 +1,10 @@
-# gulp-webpack
+# gulp-webpack-coffeescript
 
-gulp with
+gulp for WebApp, with
   - webpack
   - CoffeeScript
-  - Sass
+  - Sass (SCSS)
   - pleeease
-  - sourcemaps
-  - imagemin
+  - SourceMaps
+  - ImageMin
   - browser-sync
